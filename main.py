@@ -91,7 +91,6 @@ while True:
       )
   fatos.extend(comparadorResposta(numQuestao, opcaoEscolhida.lower()))
   limpa_tela()
-  print(fatos)
 
   print(f"Parabéns {nome}, quiz concluído \n\nSua casa é: {se.personalidade(fatos)}")
 

@@ -10,5 +10,4 @@ class SistemaEspecialista:
         for palavra, num in dados['caracteristicas'].items():
           if(adj == palavra):
             placar[casa] += num
-    print(placar)
     return max(placar, key=placar.get)
