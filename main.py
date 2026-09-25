@@ -13,6 +13,8 @@ opcaoEscolhida = ''
 numQuestao = 1
 
 while True:
+  nome = input("Digite seu nome: ")
+  
   # Questão 1
   print("Qual é a sua maior motivação no dia a dia?\n")
   opcaoEscolhida = input(
@@ -91,7 +93,7 @@ while True:
   limpa_tela()
   print(fatos)
 
-  print(f"Parabéns, quiz concluído \n\nSua casa é: {se.personalidade(fatos)}")
+  print(f"Parabéns {nome}, quiz concluído \n\nSua casa é: {se.personalidade(fatos)}")
 
   fimloop = input("Deseja fazer novamente? (S/N)")
   if(fimloop.lower() == 's'):
